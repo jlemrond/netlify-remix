@@ -1,11 +1,11 @@
 [build]
-  command = "remix build"
+  command = "pnpm build"
   base = "apps/web"
   publish = "public"
 
 [[redirects]]
   from = "/*"
-  to = "apps/web/.netlify/functions/server"
+  to = "/.netlify/functions/server"
   status = 200
 
 [[headers]]
