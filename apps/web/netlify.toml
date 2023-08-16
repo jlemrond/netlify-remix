@@ -1,6 +1,6 @@
 [build]
-  base = "apps/web"
-  command = "pnpm build"
+  package = "apps/web"
+  command = "pnpm build --filter web"
   publish = "public"
 
 [[redirects]]
