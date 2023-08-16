@@ -1,7 +1,7 @@
 [build]
   package = "apps/web"
-  command = "pnpm --filter web build"
-  publish = "apps/web/public"
+  command = "yarn workspace web build"
+  publish = "public"
 
 [[redirects]]
   from = "/*"
