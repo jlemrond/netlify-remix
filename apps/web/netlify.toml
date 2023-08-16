@@ -1,6 +1,6 @@
 [build]
   base = "apps/web"
-  command = "remix build"
+  command = "pnpm build"
   publish = "public"
 
 [[redirects]]
