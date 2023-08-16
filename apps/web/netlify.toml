@@ -1,7 +1,7 @@
 [build]
   package = "apps/web"
-  command = "cd apps/web && pnpm build"
-  publish = "public"
+  command = "cd ./apps/web && pnpm build"
+  publish = "apps/web/public"
 
 [[redirects]]
   from = "/*"
