@@ -1,6 +1,6 @@
 [build]
   package = "apps/web"
-  command = "cd ./apps/web && pnpm build"
+  command = "pnpm --filter web build"
   publish = "apps/web/public"
 
 [[redirects]]
